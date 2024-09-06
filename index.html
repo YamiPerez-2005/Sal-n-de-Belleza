@@ -11,14 +11,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="../inicio.html">Inicio</a></li>
-                <li><a href="content/tematica.html">Temática</a></li>
-                <li><a href="content/acerca.html">Acerca de</a></li>
-                <li><a href="content/contacto.html">Contacto</a></li>
+                <h1>BIENVENIDOS AL SALÓN DE BELLEZA "BEAUTIFUL"</h1>
             </ul>
         </nav>
     </header>
-
     <section id="inicio">
         <h1>Bienvenidos al salón de belleza "Beautiful"</h1>
         <div class="banner">
@@ -26,22 +22,104 @@
         </div>
         <div class="cards">
             <div class="card">
-                <a href="https://www.freepik.es/fotos-vectores-gratis/beautifull-beauty" >
+                <a href="https://www.freepik.es/fotos-vectores-gratis/beautifull-beauty">
                     <img src="images/belleza.avif" alt="belleza" height="600" width="600">
-                    <h2>Servicios disponibles:</h2>
+                    <h2>Servicios disponibles aquí:</h2>
                     <p>Corte de cabello de todo estilo.</p>
                     <p>Alisados.</p>
                     <p>Maquillaje de todo tipo.</p>
                     <p>Y más...</p>
-               </a>
+                </a>
             </div>
         </div>
     </section>
 
+    <main>
+        <h1>¡HAZ TU CITA YA!</h1>
+        <h1>Contactános</h1>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre"><b>Nombre:</b></label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br />
+            <br />
+            <label><b>Teléfono:</b></label>
+            <input type="tel" id="telefono" placeholder="0000-0000" required />
+            <br />
+            <br />
+
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required>
+            <br />
+            <br />
+            <label for="mensaje"><b>Mensaje:</b></label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <br />
+            <br />
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <section id="tematica">
+        <h1>Nuestra Historia</h1>
+        <p>
+            En BEAUTIFUL, creemos que la belleza es una forma de arte. Fundado en [2013], nuestro salón ha sido un refugio para aquellos que buscan realzar su belleza natural. Desde nuestros humildes comienzos, hemos crecido gracias a la pasión y dedicación de nuestro equipo, siempre enfocados en ofrecer un servicio excepcional y personalizado.
+        </p>
+
+        <h2>Nuestra Misión</h2>
+        <p>
+            En BEAUTIFUL, nuestra misión es proporcionar una experiencia de belleza única y personalizada. Nos esforzamos por crear un ambiente acogedor y relajante donde cada cliente pueda sentirse cómodo y valorado. Creemos en la importancia de la autoexpresión y trabajamos para ayudar a cada persona a encontrar su estilo único.
+        </p>
+
+        <h2>Nuestros valores</h2>
+        <p>
+        <p> <b>Calidad:</b> Utilizamos productos de alta calidad y técnicas avanzadas para asegurar resultados excepcionales.</p>
+        <p> <b>Innovación:</b> Nos mantenemos al día con las últimas tendencias y tecnologías en el mundo de la belleza.</p>
+        <p> <b>Atención al Cliente:</b> Cada cliente es especial para nosotros, y nos esforzamos por ofrecer un servicio personalizado y atento.</p>
+        <p> <b>Sostenibilidad:</b> Nos comprometemos a prácticas sostenibles y responsables con el medio ambiente.</p>
+
+        <p>
+        <p>
+            <a href="https://www.versum.com/m/mx/blog/3-preguntas-tipicas-que-hacen-los-clientes-de-salones-de-belleza-y-como-responder-a-ellas/" src="images/atencion.jpg" alt="mision">
+                <h2>Más información:</h2>
+            </a>
+        </p>
+        </p>
+    </section>
+    <main>
+        <h2>¡Conoce más sobre Nosotros!</h2>
+        <p> BEAUTIFUL es un salón dedicado a ofrecer los mejores servicios de belleza en un ambiente relajante y profesional.</p>
+            <table border="1" height="550%" width="50%">
 
 
+                <br />
+                <br />
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Especialidad</th>
+                        <th>Años de Experiencia</th>
+                    </tr>
+                    <tr>
+                        <td>Ana Pérez</td>
+                        <td>Estilista Principal</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Juan Gómez</td>
+                        <td>Colorista</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Clari Díaz</td>
+                        <td>Manicure y pedicure</td>
+                        <td>8</td>
+                    </tr>
+
+                </thead>
+            </table>
+    </main>
     <footer>
-        <p>&copy; 2024 Salón de Belleza BEAUTIFUL. Todos los derechos reservados.</p>
+        <p>&copy; 2024 BEAUTIFUL. Todos los derechos reservados.</p>
     </footer>
+    
 </body>
 </html>
